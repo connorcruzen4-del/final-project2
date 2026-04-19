@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Favorite Movies</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="header">
+	<h1>My Favorite Movies</h1>
+	<p>A page about some movies I really like.</p>
+	<p><a href="index.html">Back to Home</a> | <a href="snake.html">Play my Snake Game</a></p>
+</div>
+
+<div id="main">
+
+<h2 id="top">List of Movies</h2>
+
+<ol>
+	<li><a href="#donnie">Donnie Darko</a>
+		<ul>
+			<li>Director: Richard Kelly</li>
+			<li>Year: 2001</li>
+		</ul>
+	</li>
+	<li><a href="#departed">The Departed</a>
+		<ul>
+			<li>Director: Martin Scorsese</li>
+			<li>Year: 2006</li>
+		</ul>
+	</li>
+	<li><a href="#marriage">Marriage Story</a>
+		<ul>
+			<li>Director: Noah Baumbach</li>
+			<li>Year: 2019</li>
+		</ul>
+	</li>
+	<li><a href="#pirates">Pirates of the Caribbean</a>
+		<ul>
+			<li>Director: Gore Verbinski</li>
+			<li>Year: 2003</li>
+		</ul>
+	</li>
+</ol>
+
+<hr>
+
+<div class="movie" id="donnie">
+	<h3>1. Donnie Darko (2001)</h3>
+	<img src="https://image.tmdb.org/t/p/w500/fhQoQfejY1hUcwyuLgpBrYs6uFt.jpg" alt="Donnie Darko poster" width="250">
+	<p>This one is weird but I love it. It's about a kid who keeps seeing this guy in a rabbit suit named Frank who tells him the world is going to end. The whole movie has a creepy vibe and the ending kind of messes with your head. I've watched it a bunch of times.</p>
+	<p><a href="#top">back to top</a></p>
+</div>
+
+<hr>
+
+<div class="movie" id="departed">
+	<h3>2. The Departed (2006)</h3>
+	<img src="https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg" alt="The Departed poster" width="250">
+	<p>Scorsese movie with Leo DiCaprio and Matt Damon. One of them is a cop pretending to be a criminal and the other is a criminal pretending to be a cop. The whole movie is them trying to figure out who the other guy is. Jack Nicholson is in it too. It's stressful in a good way.</p>
+	<p><a href="#top">back to top</a></p>
+</div>
+
+<hr>
+
+<div class="movie" id="marriage">
+	<h3>3. Marriage Story (2019)</h3>
+	<img src="https://image.tmdb.org/t/p/w500/hloiqbCJxc4xlRkfT8wEzG2yKZZ.jpg" alt="Marriage Story poster" width="250">
+	<p>This one is sad. It's about a couple getting divorced and you see it from both of their sides. Adam Driver and Scarlett Johansson are both really good in it. There's a scene where they have a huge fight in an apartment that is kind of hard to watch but it's so well done.</p>
+	<p><a href="#top">back to top</a></p>
+</div>
+
+<hr>
+
+<div class="movie" id="pirates">
+	<h3>4. Pirates of the Caribbean (2003)</h3>
+	<img src="https://image.tmdb.org/t/p/w500/z8onOaap59kQnxW8i93fHkLKVHR.jpg" alt="Pirates of the Caribbean poster" width="250">
+	<p>The first one is the best one. Johnny Depp as Jack Sparrow is just really funny and the movie is fun the whole way through. I have probably seen this movie more times than any other movie on this list. Hans Zimmer's music is amazing too.</p>
+	<p><a href="#top">back to top</a></p>
+</div>
+
+<hr>
+
+<h2>Movie Trailer</h2>
+<p>Here is the trailer for Donnie Darko:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vlou0lW4Rjk" title="Donnie Darko Trailer" frameborder="0" allowfullscreen></iframe>
+
+<hr>
+
+<h2>IMDb Top Movies (Tableau)</h2>
+<p>I found this Tableau dashboard that has stats on the top movies on IMDb. You can click on it and interact with it.</p>
+
+<div class='tableauPlaceholder' id='viz1776547414016' style='position: relative'>
+	<noscript><a href='#'><img alt='IMDb Movies' src='https://public.tableau.com/static/images/IM/IMDBTopMovies_17101706981570/IMDbMovies/1_rss.png' style='border: none' /></a></noscript>
+	<object class='tableauViz' style='display:none;'>
+		<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+		<param name='embed_code_version' value='3' />
+		<param name='site_root' value='' />
+		<param name='name' value='IMDBTopMovies_17101706981570&#47;IMDbMovies' />
+		<param name='tabs' value='no' />
+		<param name='toolbar' value='yes' />
+		<param name='static_image' value='https://public.tableau.com/static/images/IM/IMDBTopMovies_17101706981570/IMDbMovies/1.png' />
+		<param name='animate_transition' value='yes' />
+		<param name='display_static_image' value='yes' />
+		<param name='display_spinner' value='yes' />
+		<param name='display_overlay' value='yes' />
+		<param name='display_count' value='yes' />
+		<param name='language' value='en-US' />
+	</object>
+</div>
+<script type='text/javascript'>
+	var divElement = document.getElementById('viz1776547414016');
+	var vizElement = divElement.getElementsByTagName('object')[0];
+	vizElement.style.width = '100%';
+	vizElement.style.height = '800px';
+	var scriptElement = document.createElement('script');
+	scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+	vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+</div>
+
+<div id="footer">
+	<p>Thanks for checking out my page!</p>
+	<p><a href="index.html">Home</a> | <a href="snake.html">Snake Game</a></p>
+</div>
+
+</body>
+</html>
